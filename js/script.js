@@ -12,7 +12,7 @@ const arrTeam = [
 		photo: 'angela-caroll-chief-editor.jpg',
 	},
 	{
-		name: 'Walter GordonPippo',
+		name: 'Walter Gordon',
 		work: 'Office Manager',
 		photo: 'walter-gordon-office-manager.jpg',
 	},
