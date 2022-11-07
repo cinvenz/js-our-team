@@ -43,9 +43,10 @@ for (let i = 0; i < arrTeam.length; i++) {
     // cardsTeam.append(img)
     
     const eleCards = document.createElement('div');
+    eleCards.classList.add('containercards')
     cardsTeam.append(eleCards)
-    eleCards.innerHTML += `<img class="img-fluid + " src="img/${arrTeam[i].photo}" alt="">`
-    eleCards.innerHTML += `<h5 class="text-center + " >${arrTeam[i].name}</h5>`;
-    eleCards.innerHTML += `<p class="text-center + ">${arrTeam[i].work}</p>`;
+    eleCards.innerHTML += `<img class="img-fluid" src="img/${arrTeam[i].photo}" alt="">`
+    eleCards.innerHTML += `<h5>${arrTeam[i].name}</h5>`;
+    eleCards.innerHTML += `<p>${arrTeam[i].work}</p>`;
 
 }
